@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'font-awesome-image-editor';
+	src:url('fonts/font-awesome-image-editor.eot');
+	src:url('fonts/font-awesome-image-editor.eot?#iefix') format('embedded-opentype'),
+		url('fonts/font-awesome-image-editor.woff') format('woff'),
+		url('fonts/font-awesome-image-editor.ttf') format('truetype'),
+		url('fonts/font-awesome-image-editor.svg#font-awesome-image-editor') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'font-awesome-image-editor';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-send-backwards, .icon-send-to-back, .icon-bring-to-front, .icon-bring-forward, .icon-line-thickness, .icon-cursor, .icon-transparency, .icon-flip-vertical, .icon-flip-horizontal, .icon-text-colour, .icon-text-background {
+	font-family: 'font-awesome-image-editor';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-send-backwards:before {
+	content: "\e000";
+}
+.icon-send-to-back:before {
+	content: "\e001";
+}
+.icon-bring-to-front:before {
+	content: "\e002";
+}
+.icon-bring-forward:before {
+	content: "\e003";
+}
+.icon-line-thickness:before {
+	content: "\e004";
+}
+.icon-cursor:before {
+	content: "\e005";
+}
+.icon-transparency:before {
+	content: "\e006";
+}
+.icon-flip-vertical:before {
+	content: "\e007";
+}
+.icon-flip-horizontal:before {
+	content: "\e008";
+}
+.icon-text-colour:before {
+	content: "\e009";
+}
+.icon-text-background:before {
+	content: "\e00a";
+}
