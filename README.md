@@ -20,3 +20,5 @@ The icons are:
 * Text Background Colour
 
 The icons were created in Illustrator, saved as SVG then compiled to a font using http://icomoon.io/.
+
+![All the Font Awesome Image Editor icons](https://raw.github.com/simonwoodhead/font-awesome-image-editor/master/font-awesome-image-editor.png)
